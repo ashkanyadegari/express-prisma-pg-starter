@@ -1,0 +1,30 @@
+{
+  "name": "express-prisma",
+  "version": "1.0.0",
+  "description": "Express Using Prisma, Jest",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^2.29.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.6.1",
+    "jest": "^27.0.6",
+    "prisma": "^2.29.1",
+    "supertest": "^6.1.5",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
